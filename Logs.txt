@@ -1,0 +1,82 @@
+git init
+git add .
+git branch -M main
+git remote add origin https://github.com/mahmoudm4/secondRepo.git
+git branch mahmoudBranch
+git checkout mahmoudBranch
+git add .
+git commit -m "Mahmoud Commit"
+git checkout master
+git push -u origin master
+git branch -d mahmoudBranch
+git log
+git log - 5
+git log --graph
+
+git revert cf9be9f210a730449801433286f5aa0e127b75ed
+
+git merge mahmoudBranch
+
+
+C:\Users\mahmo\OneDrive\Desktop\git\Mohamed Repo\OS_41GitLab2>git log --graph
+* commit fb988608b62ec1c3e177a8f49c4ac2d0e1f2e64c (HEAD -> master, feat)
+| Author: mahmoudm4 <mahmoudm4895@gmail.com>
+| Date:   Sun Jan 3 18:15:24 2021 +0200
+|
+|     mjskw
+|
+*   commit f2c3826073e09e210a5e60d18d39fcb6f62fa6d4 (origin/master, origin/HEAD)
+|\  Merge: c8bd689 2896daf
+| | Author: mahmoudm4 <76862919+mahmoudm4@users.noreply.github.com>
+| | Date:   Sun Jan 3 17:52:11 2021 +0200
+| |
+| |     Merge pull request #1 from mohamedegila/MahmoudBranch
+| |
+| |     Mahmoud Commit
+| |
+| * commit 2896dafc3bd41e47f5b85328e23bf2b2bba8518a (origin/MahmoudBranch, MahmoudBranch)
+|/  Author: mahmoudm4 <mahmoudm4895@gmail.com>
+|   Date:   Sun Jan 3 17:49:09 2021 +0200
+|
+|       Mahmoud Commit
+|
+* commit c8bd6895060dd1fc188a6f573cdf92bbaac78d4b
+| Author: mohamedegila <mohammedegila@gmail.com>
+| Date:   Sun Jan 3 17:41:24 2021 +0200
+|
+|     added index after stash
+|
+* commit cf9be9f210a730449801433286f5aa0e127b75ed
+| Author: mohamedegila <mohammedegila@gmail.com>
+:                                                                                                                       
+//////////////////////////////////////////////////////
+
+
+git checkout feature
+
+git add .
+
+git checkout main
+
+git rebase feature
+
+* commit 1071ebc8c356d6916c3607cf5f7c0e9df72b8cea (HEAD -> main)
+| Author: mohamedegila <mohammedegila@gmail.com>
+| Date:   Sun Jan 3 16:56:52 2021 +0200
+|
+|     added new message from mohammed
+|
+* commit fb99099b5fc67ae085b43d3081c0810d5c476e98 (feature)
+| Author: Ahmed-Saleh-007 <a85851a@gmail.com>
+| Date:   Sun Jan 3 17:24:21 2021 +0200
+|
+|     edit mohamed file
+|
+* commit 1c15ea507c436df99609bdb04c71578274546ed7 (origin/feature)
+| Author: mahmoudm4 <mahmoudm4895@gmail.com>
+| Date:   Sun Jan 3 16:59:16 2021 +0200
+|
+|     Mahmoud Commit
+|
+*
+
