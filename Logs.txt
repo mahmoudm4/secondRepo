@@ -52,31 +52,42 @@ C:\Users\mahmo\OneDrive\Desktop\git\Mohamed Repo\OS_41GitLab2>git log --graph
 //////////////////////////////////////////////////////
 
 
-git checkout feature
+git checkout newB
 
 git add .
 
 git checkout main
 
-git rebase feature
+git rebase newB
 
-* commit 1071ebc8c356d6916c3607cf5f7c0e9df72b8cea (HEAD -> main)
-| Author: mohamedegila <mohammedegila@gmail.com>
-| Date:   Sun Jan 3 16:56:52 2021 +0200
-|
-|     added new message from mohammed
-|
-* commit fb99099b5fc67ae085b43d3081c0810d5c476e98 (feature)
-| Author: Ahmed-Saleh-007 <a85851a@gmail.com>
-| Date:   Sun Jan 3 17:24:21 2021 +0200
-|
-|     edit mohamed file
-|
-* commit 1c15ea507c436df99609bdb04c71578274546ed7 (origin/feature)
+C:\Users\mahmo\OneDrive\Desktop\git\Mohamed Repo\OS_41GitLab2>git log --graph
+* commit fb9a858713835bc3befe6f02cf595a34c5bf1b05 (HEAD -> master, newB)
 | Author: mahmoudm4 <mahmoudm4895@gmail.com>
-| Date:   Sun Jan 3 16:59:16 2021 +0200
+| Date:   Sun Jan 3 18:55:29 2021 +0200
 |
-|     Mahmoud Commit
+|     aa
 |
-*
-
+* commit 60e0ac317e309c0f1db07502fe33bd646cf3a61b
+| Author: mahmoudm4 <mahmoudm4895@gmail.com>
+| Date:   Sun Jan 3 18:55:06 2021 +0200
+|
+|     aaa
+|
+* commit 56a48ca4bf688451b6b5e8ea528507a33b1ef86c
+| Author: mahmoudm4 <mahmoudm4895@gmail.com>
+| Date:   Sun Jan 3 18:54:54 2021 +0200
+|
+|     a
+|
+* commit f5851485e7b5478bcade01d24501a336cf7ade2e
+| Author: mahmoudm4 <mahmoudm4895@gmail.com>
+| Date:   Sun Jan 3 18:54:42 2021 +0200
+|
+|     asss
+|
+* commit 53bdca3c8756da3b35d03caf739164c9ecdd9504
+| Author: mahmoudm4 <mahmoudm4895@gmail.com>
+| Date:   Sun Jan 3 18:54:24 2021 +0200
+|
+|     as
+:             
